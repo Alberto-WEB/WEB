@@ -558,7 +558,7 @@ $(function(){
               if (res) {
                 $(".email-error").html("");
               } else {
-                $(".email-error").html("please enter a valid email.");
+                $(".email-error").html("Por favor introduzca una dirección de correo electrónico válida.");
                 return false;
               }
     
@@ -569,7 +569,7 @@ $(function(){
     
               if ($(this).val() === "") {
     
-                targetMessage.html("please enter a valid "+target+".");
+                targetMessage.html("por favor, introduza un valor valido "+target+".");
                 return false;
     
               } else { 
@@ -624,7 +624,7 @@ $(function(){
               if (data.responseText !== '') {
                   formMessages.text(data.responseText);
               } else {
-                  formMessages.text('Sorry! An error occured and your message could not be sent.');
+                  formMessages.text('¡Lo siento! Ocurrió un error y su mensaje no pudo ser enviado.');
               }
     
           });
